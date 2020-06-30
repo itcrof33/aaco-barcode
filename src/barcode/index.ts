@@ -1,0 +1,1 @@
+export { drawBarcode } from "./drawBarcode";

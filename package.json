@@ -1,0 +1,42 @@
+{
+  "name": "aaco-barcode",
+  "version": "0.0.0",
+  "description": "Svg Barcode Package",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "predeploy": "npm install && npm run build",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itcrof33/aaco-barcode.git"
+  },
+  "keywords": [
+    "Svg",
+    "Barcode"
+  ],
+  "author": "Dominic Crofoot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itcrof33/aaco-barcode/issues"
+  },
+  "homepage": "https://github.com/itcrof33/aaco-barcode#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "xmldom": "^0.3.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 150,
+    "semi": true,
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "jsxSingleQuote": true
+  }
+}
