@@ -54,7 +54,7 @@ const copyDefaults = function(target, source) {
  * @param {Number} options.maxWidth Maximum barcode width (including quiet zones).  If specified, then the moduleWidth will be adjusted if necessary to make the entire barcode fit in the given width.
  * @param {Number} options.width If given, then ignore moduleWidth and maxWidth and set the moduleWidth so that the barcode will have the given width.
  */
-export function drawBarcode(g, text, options) {
+export function drawBarcode(g :any, text: any, options : any) {
   // Validate input.
   if (typeof g !== "object" && g !== "path" && g !== "svg") {
     throw new Error("drawBarcode: expected `g' to be an object or 'path' or 'svg'.");
